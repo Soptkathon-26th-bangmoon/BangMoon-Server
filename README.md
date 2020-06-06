@@ -1,8 +1,6 @@
 <img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/logo.png>
 
-# 방구석 문화생활, 방문
-
-**방구석 문화생활, 방문 / 관람자가 언더 공연에 펀딩하고 공연 영상을 소비할 수 있는 서비스**
+# 구석 문화생활, 방문 / 관람자가 언더 공연에 펀딩하고 공연 영상을 소비할 수 있는 서비스
 
 **[API docs- git wiki](https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/wiki)**
 
@@ -33,14 +31,14 @@
 
 ## PostMan Test 결과
 <p float="left">
-<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test1.PNG width="100"/>
-<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test2.PNG width="100"/>
-<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test3.PNG width="100"/>
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test1.PNG width="200"/>
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test2.PNG width="200"/>
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test3.PNG width="200"/>
     </p>
     <p float="left">
-<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test4.PNG width="100"/>
-<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test5.PNG width="100"/>
-<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test6.PNG width="100"/>
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test4.PNG width="200"/>
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test5.PNG width="200"/>
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test6.PNG width="200"/>
     </p>
 
 
