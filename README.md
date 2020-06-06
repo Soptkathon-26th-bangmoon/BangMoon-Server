@@ -1,6 +1,6 @@
-# bangmoon 방구석 문화생활, 방문
 <img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/logo.png>
-**방구석 문화생활, 방문 / 관람자가 언더 공연에 펀딩하고 공연 영상을 소비할 수 있는 서비스**
+# 방구석 문화생활, 방문
+### 방구석 문화생활, 방문 / 관람자가 언더 공연에 펀딩하고 공연 영상을 소비할 수 있는 서비스**
 
 ## ERD 모델
 <img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/ERD.png>
@@ -9,10 +9,10 @@
 <img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/아키텍처.PNG>
 
 ## iOS 뷰
-<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/view1.PNG>
-<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/view2.PNG>
-<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/view3.PNG>
-<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/view4.PNG>
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/view1.png>
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/view2.png>
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/view3.png>
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/view4.png>
 
 **Why?**
 
@@ -44,12 +44,12 @@
 2.  다른 티켓 플랫폼 : 공연자가 다른 소셜커머스와 달리 수수료를 크게 지불하지 않고, 소비자도 낮은 가격으로 즐길 수 있음. 양 측의 진입장벽을 낮춤.
     
 
-### 컬러 선택
+**컬러 선택**
 
 1.  BM Purple: 메인 컬러. '방문'이 미지한 공간임을 의미. (생소하고 다양한 공연) 으로 개성을 뽐내는 인디 아티스트
 2.  BM Gray: 서브 컬러. 심플함. 세련됨과 효율성을 상징
 
-### 필요한 View
+**필요한 View**
 
 1.  로딩 View
     
@@ -61,8 +61,7 @@
 
 
 
-
-### Contributor
+**Contributor**
 
 - [심다은](https://github.com/DaEunShim) (DaEunShim)
 
