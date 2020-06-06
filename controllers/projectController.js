@@ -1,4 +1,3 @@
-let responseMessage = require('../modules/responseMessage');
 let statusCode = require('../modules/statusCode');
 let util = require('../modules/util');
 let project = require('../models/project');
