@@ -13,4 +13,15 @@ exports.getlist = async(req,res,next)=> {
         }
 }
 
+exports.getDeadline = async(req,res,next)=> {
+    const query = `SELECT p_poster_img FROM ${table}`;
+    try {
+        const result = await pool.queryParam(query);
+        return result;
+    } catch (err) {
+        console.log('ERROR : ', err);
+        throw err;
+    }
+}
+
 

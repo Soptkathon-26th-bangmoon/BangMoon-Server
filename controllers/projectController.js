@@ -23,9 +23,22 @@ exports.getlist = async (req,res)=>{
         const p_percentage = Math.round(result[0].p_goal_money / result[0].p_total_money * 100);
 
         // 성공
-        return res.status(statusCode.OK).send(util.success(statusCode.OK,responseMessage.READ_MAIN_LIST_SUCCESS, result));
+        return res.status(statusCode.OK).send(util.success(statusCode.OK, result));
     } catch(err){
-        return res.status(statusCode.INTERNAL_SERVER_ERROR).send(util.fail(statusCode.INTERNAL_SERVER_ERROR, err.message));
+        return res.status(statusCode.INTERNAL_SERVER_ERROR).send(util.fail(statusCode.INTERNAL_SERVER_ERROR));
+        throw err;
+    }
+}
+
+exports.getDeadline = async (req,res)=>{
+    try{
+        const result = await project.getDeadline();
+        const data = [result[0], result[1], result[2]];
+
+        // 성공
+        return res.status(statusCode.OK).send(util.success(statusCode.OK, data));
+    } catch(err){
+        return res.status(statusCode.INTERNAL_SERVER_ERROR).send(util.fail(statusCode.INTERNAL_SERVER_ERROR));
         throw err;
     }
 }
