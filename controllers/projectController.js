@@ -7,20 +7,24 @@ let moment = require('moment');
 exports.getlist = async (req,res)=>{
     try{
         const result = await project.getlist();
-        // 남은 날짜 계산하기
+
+        // 현재 시간 계산
         const now = moment().format("YYYY-MN-DD");
-
-        var arr = result[0].p_date;
-
-        var arrDate1 = arr.split("-");
-        var getDate1 = new Date(parseInt(arrDate1[0]),parseInt(arrDate1[1])-1,parseInt(arrDate1[2]));
         var arrDate2 = now.split("-");
         var getDate2 = new Date(parseInt(arrDate2[0]),parseInt(arrDate2[1])-1,parseInt(arrDate2[2]));
-        var getDiffTime = (getDate1.getTime() - getDate2.getTime()) / (1000 * 60 * 60 * 24);
 
+        result.forEach((element, index) => {
+            // 남은 날짜 계산하기
+            var arr = element.p_date;
+            var arrDate1 = arr.split("-");
+            var getDate1 = new Date(parseInt(arrDate1[0]),parseInt(arrDate1[1])-1,parseInt(arrDate1[2]));
+            element.p_date = (getDate1.getTime() - getDate2.getTime()) / (1000 * 60 * 60 * 24);
 
-        // 펀딩 퍼센테이지 계산하기 - 소수점 반올림
-        const p_percentage = Math.round(result[0].p_goal_money / result[0].p_total_money * 100);
+            // 펀딩 퍼센테이지 계산하기 - 소수점 반올림
+            var p_percentage = Math.round(element.p_goal_money / element.p_total_money * 100);
+            element.p_percentage = p_percentage;
+            delete element['p_goal_money'];
+        });
 
         // 성공
         return res.status(statusCode.OK).send(util.success(statusCode.OK, result));
