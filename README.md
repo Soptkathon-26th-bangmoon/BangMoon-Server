@@ -2,7 +2,7 @@
 
 ### 구석 문화생활, 방문 / 관람자가 언더 공연에 펀딩하고 공연 영상을 소비할 수 있는 서비스
 
-**[API docs- git wiki](https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/wiki)**
+### [API docs- git wiki](https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/wiki)
 
 ## Why?
 
