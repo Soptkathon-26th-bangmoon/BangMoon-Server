@@ -14,3 +14,16 @@ exports.getUserName = async (req,res)=>{
         throw err;
     }
 }
+
+
+exports.getCompleteProject = async (req,res)=>{
+    try{
+        const result = await user.getCompleteProject();
+
+        // 성공
+        return res.status(statusCode.OK).send(util.success(statusCode.OK, result));
+    } catch(err){
+        return res.status(statusCode.INTERNAL_SERVER_ERROR).send(util.fail(statusCode.INTERNAL_SERVER_ERROR));
+        throw err;
+    }
+}

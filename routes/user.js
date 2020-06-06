@@ -6,5 +6,6 @@ var userController = require('../controllers/userController');
 router.get('/', userController.getUserName);
 // /user/project/list
 //router.get('/project/list', userController.getUserList);
+router.get('/complete', userController.getCompleteProject);
 
 module.exports = router;
