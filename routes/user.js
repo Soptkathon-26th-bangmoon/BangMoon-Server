@@ -1,7 +1,10 @@
 var express = require('express');
 var router = express.Router();
-var user = require('../models/user');
+var userController = require('../controllers/userController');
 
-router.get('/user', user.getlist);
+// [GET] /user
+router.get('/', userController.getUserName);
+// /user/project/list
+//router.get('/project/list', userController.getUserList);
 
 module.exports = router;
