@@ -1,6 +1,8 @@
 <img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/logo.png>
+
 # 방구석 문화생활, 방문
-### 방구석 문화생활, 방문 / 관람자가 언더 공연에 펀딩하고 공연 영상을 소비할 수 있는 서비스**
+
+**방구석 문화생활, 방문 / 관람자가 언더 공연에 펀딩하고 공연 영상을 소비할 수 있는 서비스**
 
 ## ERD 모델
 <img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/ERD.png>
@@ -9,10 +11,10 @@
 <img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/아키텍처.PNG>
 
 ## iOS 뷰
-<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/view1.png>
-<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/view2.png>
-<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/view3.png>
-<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/view4.png>
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/view1.png width="70">
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/view2.png  width="100">
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/view3.png width="150">
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/view4.png  width="200">
 
 **Why?**
 
