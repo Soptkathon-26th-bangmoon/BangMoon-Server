@@ -1,6 +1,18 @@
+# bangmoon 방구석 문화생활, 방문
 <img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/logo.png>
-### 방구석 문화생활, 방문 / 관람자가 언더 공연에 펀딩하고 공연 영상을 소비할 수 있는 서비스
+**방구석 문화생활, 방문 / 관람자가 언더 공연에 펀딩하고 공연 영상을 소비할 수 있는 서비스**
 
+## ERD 모델
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/ERD.png>
+
+## 서버 아키텍처
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/아키텍처.PNG>
+
+## iOS 뷰
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/view1.PNG>
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/view2.PNG>
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/view3.PNG>
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/view4.PNG>
 
 **Why?**
 
@@ -48,11 +60,7 @@
 4.  마이페이지에 구매한 동영상 실행 ⇒ 유튜브 링크 연동
 
 
-## ERD 모델
-<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/ERD.png>
 
-## 서버 아키텍처
-<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/아키텍처.PNG>
 
 ### Contributor
 
