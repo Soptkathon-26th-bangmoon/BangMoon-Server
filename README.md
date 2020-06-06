@@ -25,21 +25,17 @@
 <img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/아키텍처.PNG>
 
 ## iOS 뷰
-<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/view1.png >
 <img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/view2.png >
 <img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/view3.png >
 
 ## PostMan Test 결과
-<p float="left">
-<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test1.PNG width="350"/>
-<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test2.PNG width="350"/>
-<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test3.PNG width="350"/>
-    </p>
-    <p float="left">
-<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test4.PNG width="350"/>
-<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test5.PNG width="350"/>
-<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test6.PNG width="350"/>
-    </p>
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test1.PNG />
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test2.PNG />
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test3.PNG />
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test4.PNG />
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test5.PNG />
+<img src=https://github.com/Soptkathon-26th-bangmoon/BangMoon-Server/blob/master/README_RES/test6.PNG />
+
 
 
 ## 핵심가치
