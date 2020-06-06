@@ -42,3 +42,24 @@ exports.getDeadline = async (req,res)=>{
         throw err;
     }
 }
+
+exports.getDetail = async (req,res)=>{
+    try{
+        const p_idx = req.params.p_idx;
+        const result = await project.getDetail(p_idx);
+        // 남은 날짜 계산
+        const now = moment().format("YYYY-MN-DD");
+        var arr = result[0].p_date;
+        var arrDate1 = arr.split("-");
+        var getDate1 = new Date(parseInt(arrDate1[0]),parseInt(arrDate1[1])-1,parseInt(arrDate1[2]));
+        var arrDate2 = now.split("-");
+        var getDate2 = new Date(parseInt(arrDate2[0]),parseInt(arrDate2[1])-1,parseInt(arrDate2[2]));
+        result[0].p_date = (getDate1.getTime() - getDate2.getTime()) / (1000 * 60 * 60 * 24);
+
+        // 성공
+        return res.status(statusCode.OK).send(util.success(statusCode.OK, result));
+    } catch(err){
+        return res.status(statusCode.INTERNAL_SERVER_ERROR).send(util.fail(statusCode.INTERNAL_SERVER_ERROR));
+        throw err;
+    }
+}
